@@ -1,0 +1,298 @@
+
+/* Estilo barra de navegacion */
+.nav{
+	display: flex;
+	justify-content: center;
+    width: 100%;
+	height: 75px;
+	background-color:#111;
+	filter: sepia(75%);
+}
+
+.nav > div{
+	flex: 1;
+	text-align: center;
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 30px 70px;
+}
+
+.nav__li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav__li a:hover{
+	color: #8fdbff;
+	text-decoration: underline;
+}
+
+.banner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 150px;
+    padding: 10px 20px;
+    background-image: url(https://cdn.culturagenial.com/es/imagenes/1885-los-comedores-de-patatas-1885-pintura-al-oleo-82-114-cm-museo-van-gogh-amsterdam-cke.jpg);
+	filter: sepia(75%);
+}
+
+.banner__h1 {
+	width: 350px;
+	height: 55px;
+	text-align: center;
+	padding-top: 10px;
+	background-color: rgb(10, 10, 10);
+	color: #FFF;
+	/*border-radius: 10px;*/
+	box-shadow: 0px 1px 1px 1px;
+}
+
+/* ---------------------------- */
+
+/* Estilo de la introduccion */
+.introduccion{
+	background-color: #111;
+    padding: 10px 20px;
+}
+
+.introduccion div:nth-child(1){
+	padding: 20px;
+	margin-top: 15px;
+	width: 100%;
+}
+
+.introduccion div:nth-child(2){
+	width: 100%;
+	padding: 20px;
+}
+
+.introduccion__h2{
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	border: 2px solid #fff;
+	/*box-shadow: 0px 1px 3px 0px;*/
+}
+
+.introduccion__p{
+	padding: 10px;
+	color: rgb(255, 255, 255);
+	font-size: 17px;
+	box-shadow: -3px 0px 0px 0px;
+}
+/* ---------------------------- */
+
+/* Estilo de la informacion */
+
+main{
+ display: flex;
+ align-items: stretch;
+ justify-content: center;
+ width: 100%;
+ background-color: #111; 
+}
+
+main > div{
+display: flex; 
+flex: 1;  
+}
+
+#articulosprincipales{
+	flex: 1; 
+	background-color: #FFFFFF; 
+}
+
+.informacion{
+	display: flex;
+	width: 100%;
+	background-color: #111;
+	color: #FFF;
+	padding: 20px;
+	align-items: center
+}
+
+.informacion__h2{
+	width: 150px;
+	background-color: #70684e;
+	border: 3px solid #FFF;
+	padding: 20px;
+	margin-left: 15px;
+}
+
+.informacion__p{
+	box-shadow: -3px 0px 0px 0px;
+	padding: 20px;
+	margin-left: 15px;
+	width: 100%;
+}
+
+.informacion__imagen{
+    display: inline-block;
+	height: 129px;
+	width: 200px;
+	margin: 23px 20px 20px 0px;
+	/*filter: sepia(70%);*/
+	color: #000;
+}
+
+.infoAdicional{
+	margin:22px 40px 30px 20px;
+    width: 200px;
+}
+.infoAdicional p {
+	color: #fff;
+	text-align: center;
+	margin-top: 15px;
+}
+/* ---------------------------- */
+
+#articulosbiografia{
+	display: flex;
+	background-color: #70684e;
+	align-items: center;
+}
+
+.biografia__caja{
+	flex: 1;
+	margin: 0 0 0 30px;
+	padding-bottom: 25px;
+}
+
+.biografia{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: flex-start;
+	color: #fff;
+}
+
+.biografia__h2{
+	width: 100%;
+	margin: 25px 20px 0px 20px;
+	border: 3px solid #FFF;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.biografia__h3{
+	width: 210px;
+	padding: 10px;
+	margin: 50px 15px 0px 0px;
+	text-align: center;
+	border: 3px solid #FFF;
+}
+
+.biografia__p{
+	margin-top: 25px;
+	box-shadow: -2px 0px 0px 0px;
+	padding: 0 0 0 10px;
+	width: 400px;
+	font-size: 15px;
+}
+
+/*-------------*/
+
+#articulosgaleria{
+	background-color: #111;
+	color: #FFF;
+	display: flex;
+	padding-bottom: 15px;
+}
+
+.galeria__contenedorGrid{
+	display: grid;
+	grid-template-columns: repeat(3, minmax(375px, 415px)) ;
+	grid-template-rows: repeat(3, minmax(400px, 450px));
+}
+
+.galeria{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.galeria__h2{
+	width: 100%;
+	border: 3px solid #FFF;
+	padding: 20px;
+	margin: 25px 20px 0px 20px;
+}
+
+.galeria__cajaimg{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #70684e;
+	justify-content: center;
+	padding: 20px;
+	margin: 12px 15px 15px 12px;
+	box-shadow: 6px 6px 0px 0px;
+}
+
+.galeria__cajaimg p{
+	width: 300px;
+	text-align: center;
+	box-shadow: 0px 2px 0 0;
+}
+
+/*.galeria__cajaimg img{
+	box-shadow: 0px 1px 10px 1px #000;
+	box-shadow: 0px 1px 2px 2px;
+}*/
+
+.galeria__cajaimg h3{
+	text-align: center;
+	width: 300px;
+	height: 25px;
+	box-shadow: 0px 1px 0px 0px;
+}
+
+#contacto{
+	width: 100%;
+	background-color: #57513e;
+	color: #fff;
+	padding: 25px 20px 0 20px;
+}
+
+#contacto h2{
+	border: 3px solid #FFF;
+	padding: 15px;
+}
+
+.contactonav__caja{
+	display: flex;
+	padding: 25px 50px 0 35px;
+}
+
+.contactonav__li{
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+.contactonav__li a{
+	color: #fff;
+	text-decoration: none;	
+}
+
+.contactonav__li a:hover{
+	color: #8fdbff;
+	text-decoration: underline;
+}
+
+#contacto > div {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contactoinfo__li {
+	padding-top: 20px;
+	text-align: left;
+}
+
+#contacto h3 {
+	padding: 50px;
+}
